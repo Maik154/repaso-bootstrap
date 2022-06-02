@@ -1,0 +1,17 @@
+.cabecera{
+    background-color: white;
+}
+
+
+.portafolio{
+    border-top: 3px solid #54a4dc;
+}
+
+.portafolio img {
+    height: 15em;
+}
+
+.logo img {
+    width: 20em;
+    background-color: white;
+}
