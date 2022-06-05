@@ -1,9 +1,18 @@
-.cabecera{
+.cabecera {
     background-color: white;
 }
 
+* {
+    margin: 0%;
+    padding: 0%;
+}
 
-.portafolio{
+body{
+    max-width: 90%;
+    margin: auto;
+}
+
+.portafolio {
     border-top: 3px solid #54a4dc;
 }
 
@@ -14,4 +23,40 @@
 .logo img {
     width: 20em;
     background-color: white;
+}
+
+.barra {
+    text-align: start;
+    padding-left: 1em;
+}
+
+.progress {
+    height: 2em;
+    background-color: #244b83;
+}
+
+button {
+    margin: 1em;
+}
+
+button svg {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.btn-secondary {
+    background-color: #8539b3;
+}
+
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 24px;
+    line-height: 1.33;
+}
+
+footer p{
+    font-size: 14pt;
 }
